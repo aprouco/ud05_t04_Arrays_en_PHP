@@ -18,7 +18,27 @@
         $dnisAmigos=array("Antón"=>"12345678X","Rosalía"=>"11112222X","Xoan"=>"99997777X");
         echo "O DNI de Rosalía é: " . $dnisAmigos['Rosalía']."<br/>";
 
-    
+        //Array de dúas dimensións:
+        $cochesAmigos = array
+            (
+            "Antón"=>array
+            (
+            "Fiat 500",
+            "Audi A3",
+            "Peugeot 208"
+            ),
+            "Rosalía"=>array
+            (
+            "Audi TT"
+            ),
+            "Xoán"=>array
+            (
+            "Jaguar XF",
+            "BMW 520d",
+            "Seat Ibiza"
+            )
+            );
+
         echo "O segundo coche de Xoán é " .$cochesAmigos['Xóan'][1] . "<br/>";
     ?>
 </body>
