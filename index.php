@@ -14,6 +14,10 @@
         $amigos=array("Antón","Rosalía","Xoán");
         echo "O terceiro amigo é: " . $amigos[2]."<br/>";
 
+        //Array asociativo
+        $dnisAmigos=array("Antón"=>"12345678X","Rosalía"=>"11112222X","Xoan"=>"99997777X");
+        echo "O DNI de Rosalía é: " . $dnisAmigos['Rosalía']."<br/>";
+
     
         echo "O segundo coche de Xoán é " .$cochesAmigos['Xóan'][1] . "<br/>";
     ?>
